@@ -1,0 +1,115 @@
+
+
+.containercamp {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.campeonato {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #AB51E3;
+    border-radius: 8px;
+    
+}
+
+.campeonato img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.infohome{
+    padding: 30px 0px;
+}
+
+.info {
+    flex-grow: 1;
+    color: #fff;
+    
+}
+
+
+.info h2 {
+    margin-top: 0;
+    color: #131313;
+}
+
+.info p {
+    margin-top: 0;
+    color: #131313;
+}
+
+.pro {
+    background-color: #d89aff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.inscrever {
+    background-color: #ffffff;
+    color: #131313;
+    padding: 10px 20px;
+    border: none;
+	border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botaoCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+.cadastroCampeonato {
+    background-color: #AB51E3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.inscrever:hover {
+    background-color: #d89aff;
+}
+
+
+.confira {
+    background-color: #AB51E3;
+    color: #131313;
+    padding: 10px 20px;
+    border: none;
+	border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.confira:hover {
+    background-color: #ffffff;
+}
+
+/* Adicionando regras de mídia para tornar o design responsivo */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .campeonato {
+        flex-direction: column;
+    }
+    
+    .campeonato img {
+        max-width: 100%;
+        margin: 0 0 10px 0;
+    }
+}
